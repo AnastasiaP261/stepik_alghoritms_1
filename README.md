@@ -8,7 +8,7 @@
 - ![Задача решена частично](img/status_tests_passed_partially.svg) - задача решена, но не все тесты платформы пройдены
 
 ###  Сейчас здесь есть такие задачи:
-1. Небольшое число Фибоначчи  
+1. [Небольшое число Фибоначчи](https://github.com/AnastasiaP261/stepik_alghoritms_1#%D0%BD%D0%B5%D0%B1%D0%BE%D0%BB%D1%8C%D1%88%D0%BE%D0%B5-%D1%87%D0%B8%D1%81%D0%BB%D0%BE-%D1%84%D0%B8%D0%B1%D0%BE%D0%BD%D0%B0%D1%87%D1%87%D0%B8)  
     ![Задача решена](/img/status_passed_all_tests.svg)
 2. Последняя цифра большого числа Фибоначчи  
     ![Задача решена](/img/status_passed_all_tests.svg)
