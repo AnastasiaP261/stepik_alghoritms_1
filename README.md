@@ -28,7 +28,7 @@
     ![Задача решена](/img/status_passed_all_tests.svg)
 10. [Точки и отрезки](https://github.com/AnastasiaP261/stepik_alghoritms_1#%D1%82%D0%BE%D1%87%D0%BA%D0%B8-%D0%B8-%D0%BE%D1%82%D1%80%D0%B5%D0%B7%D0%BA%D0%B8)  
     ![Задача решена частично](img/status_tests_passed_partially.svg)
-11. [Сортировка подсчетом](https://github.com/AnastasiaP261/stepik_alghoritms_1#c%D0%BE%D1%80%D1%82%D0%B8%D1%80%D0%BE%D0%B2%D0%BA%D0%B0-%D0%BF%D0%BE%D0%B4%D1%81%D1%87%D1%91%D1%82%D0%BE%D0%B)  
+11. [Сортировка подсчетом](https://github.com/AnastasiaP261/stepik_alghoritms_1#c%D0%BE%D1%80%D1%82%D0%B8%D1%80%D0%BE%D0%B2%D0%BA%D0%B0-%D0%BF%D0%BE%D0%B4%D1%81%D1%87%D1%91%D1%82%D0%BE%D0%BC)  
     ![Задача решена](/img/status_passed_all_tests.svg)
 
 
