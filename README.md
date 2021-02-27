@@ -675,6 +675,37 @@ def main():
 
 ```
 
+## Cортировка подсчётом 
+Постановка задачи:
+>Первая строка содержит число _1 ≤ n ≤ 10^4_, вторая — _n_ натуральных чисел, не превышающих 10. Выведите упорядоченную по неубыванию последовательность этих чисел.
+
+Сначала пройдем по полученному массиву и подсчитаем, сколько каждой цифры мы встретили. Затем из массива подсчета восстановим новый массив, в котором числа будут уже упорядочены.
+
+Код:
+``` python
+from sys import stdout, stdin
+
+
+def main():
+    n = int(stdin.readline())
+    nums = [int(i) for i in stdin.readline().split()]
+    counting_val = [0] * 10
+
+    for i in range(n):
+        counting_val[nums[i] - 1] += 1
+
+    for i in range(1, 10):
+        counting_val[i] += counting_val[i - 1]
+
+    sorted_values = [0] * n
+    for i in range(n - 1, -1, -1):
+        sorted_values[counting_val[nums[i] - 1] - 1] = nums[i]
+        counting_val[nums[i] - 1] -= 1
+
+    stdout.write(' '.join([str(i) for i in sorted_values]))
+```
+
+
 <!---
 ## Название
 Постановка задачи:
