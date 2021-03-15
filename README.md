@@ -7,46 +7,36 @@
 - 🟢 - задача решена и прошла все внутренние тесты платформы
 - 🟡 - задача решена, но не все тесты платформы пройдены
 
-###  Сейчас здесь есть такие задачи:
-1. [Небольшое число Фибоначчи](https://github.com/AnastasiaP261/stepik_alghoritms_1#%D0%BD%D0%B5%D0%B1%D0%BE%D0%BB%D1%8C%D1%88%D0%BE%D0%B5-%D1%87%D0%B8%D1%81%D0%BB%D0%BE-%D1%84%D0%B8%D0%B1%D0%BE%D0%BD%D0%B0%D1%87%D1%87%D0%B8)  
-    ![Задача решена](/img/status_passed_all_tests.svg)  
-   файл: fibonachi.py
-2. [Последняя цифра большого числа Фибоначчи](https://github.com/AnastasiaP261/stepik_alghoritms_1#%D0%BF%D0%BE%D1%81%D0%BB%D0%B5%D0%B4%D0%BD%D1%8F%D1%8F-%D1%86%D0%B8%D1%84%D1%80%D0%B0-%D0%B1%D0%BE%D0%BB%D1%8C%D1%88%D0%BE%D0%B3%D0%BE-%D1%87%D0%B8%D1%81%D0%BB%D0%B0-%D1%84%D0%B8%D0%B1%D0%BE%D0%BD%D0%B0%D1%87%D1%87%D0%B8)  
-    ![Задача решена](/img/status_passed_all_tests.svg)  
-   файл: fibonachi_last_num.py
-3. [Огромное число Фибоначчи по модулю](https://github.com/AnastasiaP261/stepik_alghoritms_1#%D0%BE%D0%B3%D1%80%D0%BE%D0%BC%D0%BD%D0%BE%D0%B5-%D1%87%D0%B8%D1%81%D0%BB%D0%BE-%D1%84%D0%B8%D0%B1%D0%BE%D0%BD%D0%B0%D1%87%D1%87%D0%B8-%D0%BF%D0%BE-%D0%BC%D0%BE%D0%B4%D1%83%D0%BB%D1%8E)  
-    ![Задача решена](/img/status_passed_all_tests.svg)  
-   файл: fibonachi_last_num.py
-4. [Наибольший общий делитель](https://github.com/AnastasiaP261/stepik_alghoritms_1#%D0%BD%D0%B0%D0%B8%D0%B1%D0%BE%D0%BB%D1%8C%D1%88%D0%B8%D0%B9-%D0%BE%D0%B1%D1%89%D0%B8%D0%B9-%D0%B4%D0%B5%D0%BB%D0%B8%D1%82%D0%B5%D0%BB%D1%8C)  
-    ![Задача решена](/img/status_passed_all_tests.svg)  
-   файл: greatest_common_factor.py
-5. [Кодирование Хаффмана](https://github.com/AnastasiaP261/stepik_alghoritms_1#%D0%BA%D0%BE%D0%B4%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5-%D1%85%D0%B0%D1%84%D1%84%D0%BC%D0%B0%D0%BD%D0%B0)  
-    ![Задача решена](/img/status_passed_all_tests.svg)  
-   файл: huffman_coding.py
-6. [Декодирование Хаффмана](https://github.com/AnastasiaP261/stepik_alghoritms_1#%D0%B4%D0%B5%D0%BA%D0%BE%D0%B4%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5-%D1%85%D0%B0%D1%84%D1%84%D0%BC%D0%B0%D0%BD%D0%B0)  
-    ![Задача решена](/img/status_passed_all_tests.svg)  
-   файл: huffman_decoding.py
-7. [Очередь с приоритетами](https://github.com/AnastasiaP261/stepik_alghoritms_1#%D0%BE%D1%87%D0%B5%D1%80%D0%B5%D0%B4%D1%8C-%D1%81-%D0%BF%D1%80%D0%B8%D0%BE%D1%80%D0%B8%D1%82%D0%B5%D1%82%D0%B0%D0%BC%D0%B8)  
-    ![Задача решена](/img/status_passed_all_tests.svg)  
-   файл: binary_max_tree.py
-8. [Двоичный поиск](https://github.com/AnastasiaP261/stepik_alghoritms_1#%D0%B4%D0%B2%D0%BE%D0%B8%D1%87%D0%BD%D1%8B%D0%B9-%D0%BF%D0%BE%D0%B8%D1%81%D0%BA)  
-    ![Задача решена](/img/status_passed_all_tests.svg)  
-   файл: binary_search.py
-9. [Число инверсий](https://github.com/AnastasiaP261/stepik_alghoritms_1#%D1%87%D0%B8%D1%81%D0%BB%D0%BE-%D0%B8%D0%BD%D0%B2%D0%B5%D1%80%D1%81%D0%B8%D0%B9)  
-    ![Задача решена](/img/status_passed_all_tests.svg)  
-   файл: number_of_inversions.py
-10. [Точки и отрезки](https://github.com/AnastasiaP261/stepik_alghoritms_1#%D1%82%D0%BE%D1%87%D0%BA%D0%B8-%D0%B8-%D0%BE%D1%82%D1%80%D0%B5%D0%B7%D0%BA%D0%B8)  
-    ![Задача решена частично](img/status_tests_passed_partially.svg)  
-    файл: quick_sort-Points_and_Segments.py
-11. [Сортировка подсчетом](https://github.com/AnastasiaP261/stepik_alghoritms_1#c%D0%BE%D1%80%D1%82%D0%B8%D1%80%D0%BE%D0%B2%D0%BA%D0%B0-%D0%BF%D0%BE%D0%B4%D1%81%D1%87%D1%91%D1%82%D0%BE%D0%BC)  
-    ![Задача решена](/img/status_passed_all_tests.svg)  
-    файл: count_sort.py
-12. [Наибольшая последовательнократная подпоследовательность](https://github.com/AnastasiaP261/stepik_alghoritms_1#%D0%BD%D0%B0%D0%B8%D0%B1%D0%BE%D0%BB%D1%8C%D1%88%D0%B0%D1%8F-%D0%BF%D0%BE%D1%81%D0%BB%D0%B5%D0%B4%D0%BE%D0%B2%D0%B0%D1%82%D0%B5%D0%BB%D1%8C%D0%BD%D0%BE%D0%BA%D1%80%D0%B0%D1%82%D0%BD%D0%B0%D1%8F-%D0%BF%D0%BE%D0%B4%D0%BF%D0%BE%D1%81%D0%BB%D0%B5%D0%B4%D0%BE%D0%B2%D0%B0%D1%82%D0%B5%D0%BB%D1%8C%D0%BD%D0%BE%D1%81%D1%82%D1%8C)  
-    ![Задача решена](/img/status_passed_all_tests.svg)  
-    файл: largest_subsequence_1.py
-13. [Наибольшая невозрастающая подпоследовательность](https://github.com/AnastasiaP261/stepik_alghoritms_1#%D0%BD%D0%B0%D0%B8%D0%B1%D0%BE%D0%BB%D1%8C%D1%88%D0%B0%D1%8F-%D0%BD%D0%B5%D0%B2%D0%BE%D0%B7%D1%80%D0%B0%D1%81%D1%82%D0%B0%D1%8E%D1%89%D0%B0%D1%8F-%D0%BF%D0%BE%D0%B4%D0%BF%D0%BE%D1%81%D0%BB%D0%B5%D0%B4%D0%BE%D0%B2%D0%B0%D1%82%D0%B5%D0%BB%D1%8C%D0%BD%D0%BE%D1%81%D1%82%D1%8C)  
-    ![Задача решена](/img/status_passed_all_tests.svg)  
-    файл: largest_subsequence_2.py
+### Другие обозначения:
+- <kbd>file_name</kbd> - имя файла решения данной задачи
+
+###  Содержание:
+1. [Небольшое число Фибоначчи](https://github.com/AnastasiaP261/stepik_alghoritms_1#%D0%BD%D0%B5%D0%B1%D0%BE%D0%BB%D1%8C%D1%88%D0%BE%D0%B5-%D1%87%D0%B8%D1%81%D0%BB%D0%BE-%D1%84%D0%B8%D0%B1%D0%BE%D0%BD%D0%B0%D1%87%D1%87%D0%B8) 
+   🟢 <kbd>fibonachi.py</kbd>
+2. [Последняя цифра большого числа Фибоначчи](https://github.com/AnastasiaP261/stepik_alghoritms_1#%D0%BF%D0%BE%D1%81%D0%BB%D0%B5%D0%B4%D0%BD%D1%8F%D1%8F-%D1%86%D0%B8%D1%84%D1%80%D0%B0-%D0%B1%D0%BE%D0%BB%D1%8C%D1%88%D0%BE%D0%B3%D0%BE-%D1%87%D0%B8%D1%81%D0%BB%D0%B0-%D1%84%D0%B8%D0%B1%D0%BE%D0%BD%D0%B0%D1%87%D1%87%D0%B8) 
+   🟢 <kbd>fibonachi_last_num.py</kbd>
+3. [Огромное число Фибоначчи по модулю](https://github.com/AnastasiaP261/stepik_alghoritms_1#%D0%BE%D0%B3%D1%80%D0%BE%D0%BC%D0%BD%D0%BE%D0%B5-%D1%87%D0%B8%D1%81%D0%BB%D0%BE-%D1%84%D0%B8%D0%B1%D0%BE%D0%BD%D0%B0%D1%87%D1%87%D0%B8-%D0%BF%D0%BE-%D0%BC%D0%BE%D0%B4%D1%83%D0%BB%D1%8E) 
+   🟢 <kbd>fibonachi_last_num.py</kbd>
+4. [Наибольший общий делитель](https://github.com/AnastasiaP261/stepik_alghoritms_1#%D0%BD%D0%B0%D0%B8%D0%B1%D0%BE%D0%BB%D1%8C%D1%88%D0%B8%D0%B9-%D0%BE%D0%B1%D1%89%D0%B8%D0%B9-%D0%B4%D0%B5%D0%BB%D0%B8%D1%82%D0%B5%D0%BB%D1%8C) 
+   🟢 <kbd>greatest_common_factor.py</kbd>
+5. [Кодирование Хаффмана](https://github.com/AnastasiaP261/stepik_alghoritms_1#%D0%BA%D0%BE%D0%B4%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5-%D1%85%D0%B0%D1%84%D1%84%D0%BC%D0%B0%D0%BD%D0%B0) 
+   🟢 <kbd>huffman_coding.py</kbd>
+6. [Декодирование Хаффмана](https://github.com/AnastasiaP261/stepik_alghoritms_1#%D0%B4%D0%B5%D0%BA%D0%BE%D0%B4%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5-%D1%85%D0%B0%D1%84%D1%84%D0%BC%D0%B0%D0%BD%D0%B0) 
+   🟢 <kbd>huffman_decoding.py</kbd>
+7. [Очередь с приоритетами](https://github.com/AnastasiaP261/stepik_alghoritms_1#%D0%BE%D1%87%D0%B5%D1%80%D0%B5%D0%B4%D1%8C-%D1%81-%D0%BF%D1%80%D0%B8%D0%BE%D1%80%D0%B8%D1%82%D0%B5%D1%82%D0%B0%D0%BC%D0%B8) 
+   🟢 <kbd>binary_max_tree.py</kbd>
+8. [Двоичный поиск](https://github.com/AnastasiaP261/stepik_alghoritms_1#%D0%B4%D0%B2%D0%BE%D0%B8%D1%87%D0%BD%D1%8B%D0%B9-%D0%BF%D0%BE%D0%B8%D1%81%D0%BA) 
+   🟢 <kbd>binary_search.py</kbd>
+9. [Число инверсий](https://github.com/AnastasiaP261/stepik_alghoritms_1#%D1%87%D0%B8%D1%81%D0%BB%D0%BE-%D0%B8%D0%BD%D0%B2%D0%B5%D1%80%D1%81%D0%B8%D0%B9) 
+   🟢 <kbd>number_of_inversions.py</kbd>
+10. [Точки и отрезки](https://github.com/AnastasiaP261/stepik_alghoritms_1#%D1%82%D0%BE%D1%87%D0%BA%D0%B8-%D0%B8-%D0%BE%D1%82%D1%80%D0%B5%D0%B7%D0%BA%D0%B8)
+    🟡 <kbd>quick_sort-Points_and_Segments.py</kbd>
+11. [Сортировка подсчетом](https://github.com/AnastasiaP261/stepik_alghoritms_1#c%D0%BE%D1%80%D1%82%D0%B8%D1%80%D0%BE%D0%B2%D0%BA%D0%B0-%D0%BF%D0%BE%D0%B4%D1%81%D1%87%D1%91%D1%82%D0%BE%D0%BC) 
+    🟢 <kbd>count_sort.py</kbd>
+12. [Наибольшая последовательнократная подпоследовательность](https://github.com/AnastasiaP261/stepik_alghoritms_1#%D0%BD%D0%B0%D0%B8%D0%B1%D0%BE%D0%BB%D1%8C%D1%88%D0%B0%D1%8F-%D0%BF%D0%BE%D1%81%D0%BB%D0%B5%D0%B4%D0%BE%D0%B2%D0%B0%D1%82%D0%B5%D0%BB%D1%8C%D0%BD%D0%BE%D0%BA%D1%80%D0%B0%D1%82%D0%BD%D0%B0%D1%8F-%D0%BF%D0%BE%D0%B4%D0%BF%D0%BE%D1%81%D0%BB%D0%B5%D0%B4%D0%BE%D0%B2%D0%B0%D1%82%D0%B5%D0%BB%D1%8C%D0%BD%D0%BE%D1%81%D1%82%D1%8C) 
+    🟢 <kbd>largest_subsequence_1.py</kbd>
+13. [Наибольшая невозрастающая подпоследовательность](https://github.com/AnastasiaP261/stepik_alghoritms_1#%D0%BD%D0%B0%D0%B8%D0%B1%D0%BE%D0%BB%D1%8C%D1%88%D0%B0%D1%8F-%D0%BD%D0%B5%D0%B2%D0%BE%D0%B7%D1%80%D0%B0%D1%81%D1%82%D0%B0%D1%8E%D1%89%D0%B0%D1%8F-%D0%BF%D0%BE%D0%B4%D0%BF%D0%BE%D1%81%D0%BB%D0%B5%D0%B4%D0%BE%D0%B2%D0%B0%D1%82%D0%B5%D0%BB%D1%8C%D0%BD%D0%BE%D1%81%D1%82%D1%8C) 
+    🟢 <kbd>largest_subsequence_2.py</kbd>
     
 
 
