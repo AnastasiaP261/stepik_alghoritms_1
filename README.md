@@ -720,9 +720,9 @@ def main():
 
 ## Наибольшая последовательнократная подпоследовательность
 Постановка задачи:
->Дано целое число $1 ≤ n ≤ 10^3$
-> <a href="https://www.codecogs.com/eqnedit.php?latex=\inline&space;1\leq&space;n\leq&space;10^3" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\inline&space;1\leq&space;n\leq&space;10^3" title="1\leq n\leq 10^3" /></a>
-  и массив A[1\ldots n]A[1…n] натуральных чисел, не превосходящих 2 \cdot 10^92⋅10 
+>Дано целое число 
+> <a href="https://www.codecogs.com/eqnedit.php?latex=\inline&space;\mathit{1\leq&space;n\leq&space;10^3}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\inline&space;\mathit{1\leq&space;n\leq&space;10^3}" title="\mathit{1\leq n\leq 10^3}" /></a>
+> и массив A[1…n] натуральных чисел, не превосходящих 2 \cdot 10^92⋅10 
 9
  . Выведите максимальное 1 \le k \le n1≤k≤n, для которого найдётся подпоследовательность 1 \le i_1 \lt i_2 \lt \ldots \lt i_k \le n1≤i 
 1
