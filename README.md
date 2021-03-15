@@ -44,7 +44,7 @@
 12. [Наибольшая последовательнократная подпоследовательность](https://github.com/AnastasiaP261/stepik_alghoritms_1#%D0%BD%D0%B0%D0%B8%D0%B1%D0%BE%D0%BB%D1%8C%D1%88%D0%B0%D1%8F-%D0%BF%D0%BE%D1%81%D0%BB%D0%B5%D0%B4%D0%BE%D0%B2%D0%B0%D1%82%D0%B5%D0%BB%D1%8C%D0%BD%D0%BE%D0%BA%D1%80%D0%B0%D1%82%D0%BD%D0%B0%D1%8F-%D0%BF%D0%BE%D0%B4%D0%BF%D0%BE%D1%81%D0%BB%D0%B5%D0%B4%D0%BE%D0%B2%D0%B0%D1%82%D0%B5%D0%BB%D1%8C%D0%BD%D0%BE%D1%81%D1%82%D1%8C)  
     ![Задача решена](/img/status_passed_all_tests.svg)  
     файл: largest_subsequence_1.py
-13. [Наибольшая невозрастающая подпоследовательность]()  
+13. [Наибольшая невозрастающая подпоследовательность](https://github.com/AnastasiaP261/stepik_alghoritms_1#%D0%BD%D0%B0%D0%B8%D0%B1%D0%BE%D0%BB%D1%8C%D1%88%D0%B0%D1%8F-%D0%BD%D0%B5%D0%B2%D0%BE%D0%B7%D1%80%D0%B0%D1%81%D1%82%D0%B0%D1%8E%D1%89%D0%B0%D1%8F-%D0%BF%D0%BE%D0%B4%D0%BF%D0%BE%D1%81%D0%BB%D0%B5%D0%B4%D0%BE%D0%B2%D0%B0%D1%82%D0%B5%D0%BB%D1%8C%D0%BD%D0%BE%D1%81%D1%82%D1%8C)  
     ![Задача решена](/img/status_passed_all_tests.svg)  
     файл: largest_subsequence_2.py
     
@@ -765,7 +765,7 @@ def main():
 > . Выведите максимальное _1 ≤ k ≤ n_, для которого найдётся подпоследовательность 
 > <a href="https://www.codecogs.com/eqnedit.php?latex=\inline&space;1&space;\leq&space;i_1&space;<&space;i_2&space;<&space;...&space;<&space;i_k&space;\leq&space;n" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\inline&space;1&space;\leq&space;i_1&space;<&space;i_2&space;<&space;...&space;<&space;i_k&space;\leq&space;n" title="1 \leq i_1 < i_2 < ... < i_k \leq n" /></a>
 > длины _k_, в которой каждый элемент делится на предыдущий (формально: для  всех 
-> <a href="https://www.codecogs.com/eqnedit.php?latex=\inline&space;1&space;\leq&space;j&space;<&space;k,&space;A[i_j]\midA[i_{j&plus;1}]" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\inline&space;1&space;\leq&space;j&space;<&space;k,&space;A[i_j]\midA[i_{j&plus;1}]" title="1 \leq j < k, A[i_j]\midA[i_{j+1}]" /></a>
+> <a href="https://www.codecogs.com/eqnedit.php?latex=\inline&space;1&space;\leq&space;j&space;<&space;k,&space;A[i_j]&space;\mid&space;A[{i_{j&plus;1}}]" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\inline&space;1&space;\leq&space;j&space;<&space;k,&space;A[i_j]&space;\mid&space;A[{i_{j&plus;1}}]" title="1 \leq j < k, A[i_j] \mid A[{i_{j+1}}]" /></a>
 > ).
 
 За квадратичное время проходим по массиву и ищем пары (i; j), где _1 ≤ j < i ≤ n_. После прохода у нас
