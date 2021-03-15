@@ -37,7 +37,7 @@
     <kbd>largest_subsequence_1.py</kbd>
 13. 🟢 [Наибольшая невозрастающая подпоследовательность](https://github.com/AnastasiaP261/stepik_alghoritms_1#%D0%BD%D0%B0%D0%B8%D0%B1%D0%BE%D0%BB%D1%8C%D1%88%D0%B0%D1%8F-%D0%BD%D0%B5%D0%B2%D0%BE%D0%B7%D1%80%D0%B0%D1%81%D1%82%D0%B0%D1%8E%D1%89%D0%B0%D1%8F-%D0%BF%D0%BE%D0%B4%D0%BF%D0%BE%D1%81%D0%BB%D0%B5%D0%B4%D0%BE%D0%B2%D0%B0%D1%82%D0%B5%D0%BB%D1%8C%D0%BD%D0%BE%D1%81%D1%82%D1%8C) 
     <kbd>largest_subsequence_2.py</kbd>
-14. 🟢 [Расстояние редактирования]()
+14. 🟢 [Расстояние редактирования](https://github.com/AnastasiaP261/stepik_alghoritms_1#%D1%80%D0%B0%D1%81%D1%81%D1%82%D0%BE%D1%8F%D0%BD%D0%B8%D0%B5-%D1%80%D0%B5%D0%B4%D0%B0%D0%BA%D1%82%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D1%8F)
     <kbd>editing_distance.py</kbd>
     
 
