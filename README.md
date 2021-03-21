@@ -41,6 +41,10 @@
     <kbd>editing_distance.py</kbd>
 15. 🟢 [Рюкзак](https://github.com/AnastasiaP261/stepik_alghoritms_1#%D0%A0%D1%8E%D0%BA%D0%B7%D0%B0%D0%BA)
     <kbd>knapsack.py</kbd>
+16. 🟢 [Лестница](https://github.com/AnastasiaP261/stepik_alghoritms_1#%D0%BB%D0%B5%D1%81%D1%82%D0%BD%D0%B8%D1%86%D0%B0)
+    <kbd>stairs.py</kbd>
+17. 🟢 [Калькулятор](https://github.com/AnastasiaP261/stepik_alghoritms_1#%D0%BA%D0%B0%D0%BB%D1%8C%D0%BA%D1%83%D0%BB%D1%8F%D1%82%D0%BE%D1%80)
+    <kbd>calculator.py</kbd>
 
 
 ## Небольшое число Фибоначчи
@@ -963,6 +967,96 @@ def main():
                 knapsack[i][j] = max(knapsack[i][j], knapsack[i - 1][j - weights[i - 1]] + weights[i - 1])
 
     print(knapsack[-1][-1])
+```
+
+## Лестница
+Постановка задачи:
+> Даны число _1 ≤ n ≤ 10<sup>2</sup>_ ступенек лестницы и целые числа 
+> -_10<sup>4</sup> ≤ a<sub>1</sub>, ..., a<sub>n</sub> ≤ 10<sup>4</sup>_
+> , которыми помечены ступеньки. Найдите максимальную сумму, которую можно получить, идя по лестнице 
+> снизу вверх (от нулевой до _n_-й ступеньки), каждый раз поднимаясь на одну или две ступеньки.
+
+
+Код:
+``` python
+def calc_of_amount(stairs):
+    if len(stairs) == 1:
+        return stairs[0]
+
+    prev1 = 0
+    prev2 = stairs[0]
+    cur = stairs[1]
+
+    for i in range(1, len(stairs)):
+        cur = stairs[i]
+        cur += max(prev1, prev2)
+        prev1 = prev2
+        prev2 = cur
+
+    return cur
+
+
+def main():
+    n = int(input())
+    stairs = list(map(int, input().split()))
+
+    print(calc_of_amount(stairs))
+```
+
+## Калькулятор
+Постановка задачи:
+> У вас есть примитивный калькулятор, который умеет выполнять всего три операции с текущим числом _x_: 
+> заменить _x_ на _2x_, _3x_ или _x+1_. По данному целому числу _1 ≤ n ≤ 10<sup>5</sup>_
+> определите минимальное число операций _k_, необходимое, чтобы получить _n_ из _1_. 
+> Выведите _k_ и последовательность промежуточных чисел.
+
+Задача решается по аналогии с задачей о числах Фибоначчи.
+
+Код:
+``` python
+def rest_of_resp(operations):
+    answer = [0 for _ in range(operations[-1][0] + 1)]
+
+    j = len(operations) - 1
+    for i in range(len(answer) - 1, -1, -1):
+        answer[i] = j + 1
+        j = operations[j][1]
+
+    return answer
+
+
+def calc(n):
+    operations = [[0, 0] for _ in range(n)]
+
+    for cur in range(1, n):
+        add1 = cur + 1
+        mult2 = cur * 2
+        mult3 = cur * 3
+        
+        if operations[add1 - 1] == [0, 0] or operations[add1 - 1][0] > operations[cur - 1][0] + 1:
+            operations[add1 - 1][0] = operations[cur - 1][0] + 1
+            operations[add1 - 1][1] = cur - 1
+        
+        if mult2 <= n and \
+                (operations[mult2 - 1][0] > operations[cur - 1][0] + 1 or operations[mult2 - 1] == [0, 0]):
+            operations[mult2 - 1][0] = operations[cur - 1][0] + 1
+            operations[mult2 - 1][1] = cur - 1
+        
+        if mult3 <= n and \
+                (operations[mult3 - 1][0] > operations[cur - 1][0] + 1 or operations[mult3 - 1] == [0, 0]):
+            operations[mult3 - 1][0] = operations[cur - 1][0] + 1
+            operations[mult3 - 1][1] = cur - 1
+
+    answer = rest_of_resp(operations)
+    return operations[-1][0], answer
+
+
+def main():
+    number = int(input())
+
+    num_of_operat, chain = calc(number)
+    print(num_of_operat)
+    print(' '.join(map(str, chain)))
 ```
 
 <!---
